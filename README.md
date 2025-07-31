@@ -1,6 +1,6 @@
 # ADmyBRAND AI Suite - Landing Page & Component Library
 
-A modern, high-converting SaaS landing page for **ADmyBRAND AI Suite** — an AI-powered marketing platform. Built with **Next.js 14, Tailwind CSS, TypeScript**, and a reusable component system designed to follow **2025 design trends**.
+A modern, high-converting SaaS landing page for **ADmyBRAND AI Suite** — an AI-powered marketing platform. Built with **Next.js 14, Tailwind CSS, TypeScript**, and a reusable component system designed to follow 
 
 ## 🚀 Features Overview
 
@@ -40,3 +40,12 @@ A modern, high-converting SaaS landing page for **ADmyBRAND AI Suite** — an AI
 ```bash
 git clone https://github.com/ashish-2106/admybrand-landing-page.git
 cd admybrand-landing-page
+```
+### 2. Install Dependencies
+```bash
+npm install
+```
+###  3. Run Development Server
+```bash
+npm run dev
+```
