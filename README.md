@@ -1,36 +1,42 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ADmyBRAND AI Suite - Landing Page & Component Library
 
-## Getting Started
+A modern, high-converting SaaS landing page for **ADmyBRAND AI Suite** — an AI-powered marketing platform. Built with **Next.js 14, Tailwind CSS, TypeScript**, and a reusable component system designed to follow **2025 design trends**.
 
-First, run the development server:
+## 🚀 Features Overview
 
+### 🌟 Landing Page Sections
+- **Hero Section** — Bold headline, subtext, CTA, with gradient backgrounds.
+- **Features Section** — 8 AI-powered features with vibrant icons.
+- **Pricing Cards** — 3 plans with tier-wise feature comparison.
+- **Testimonials Carousel** — Customer reviews with images.
+- **FAQ Accordion** — Collapsible Q&A section.
+- **Footer** — Essential links, social media icons, and contact info.
+
+### 🎨 UI/UX Highlights
+- Glassmorphism Cards & Sections
+- Gradient Text and Dynamic Backgrounds
+- Smooth Scroll Animations (Framer Motion)
+- Perfect Typography & Clear Hierarchy
+- Fully Responsive (Mobile-First)
+
+### ⚙️ Tech Stack
+- **Next.js 14+** (App Router)
+- **TypeScript**
+- **Tailwind CSS**
+- **Reusable Components** (Button, Card, Accordion, etc.)
+- **Framer Motion** (Animations)
+- **Optimized Performance** (Images, lazy-loading)
+
+### Bonus Features
+- Interactive CTA Buttons with Gradient Effects
+- Animation-Ready Sections (Easy to extend with GSAP/Framer Motion)
+- Component Library structured for scalability.
+
+---
+
+## 🛠️ Setup Instructions
+
+### 1. Clone Repository
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+git clone https://github.com/ashish-2106/admybrand-landing-page.git
+cd admybrand-landing-page
