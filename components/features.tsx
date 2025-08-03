@@ -83,7 +83,7 @@ export function Features() {
           }
         `}
       </style>
-      <section className="py-32 relative overflow-hidden bg-gray-950">
+      <section className="py-32 relative overflow-hidden bg-gray-950" >
         <div className="container mx-auto px-6">
           <div className="max-w-7xl mx-auto">
             {/* Header */}

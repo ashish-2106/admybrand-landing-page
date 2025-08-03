@@ -192,7 +192,7 @@ export function Hero() {
                   <img
                     src="/heroImage.jpg"
                     alt="ADmyBRAND AI Suite Dashboard"
-                    className="w-full h-auto rounded-2xl shadow-2xl"
+                    className="w-full h-auto rounded-2xl shadow-2xl mb-8 sm:mb-0"
                     style={{
                       background: 'rgba(255, 255, 255, 0.03)',
                       backdropFilter: 'blur(10px)',
@@ -201,6 +201,7 @@ export function Hero() {
                       animation: 'pulse-glow 2s ease-in-out infinite'
                     }}
                   />
+
                   {/* Floating Elements */}
                   <div
                     className="absolute -top-4 -right-4 p-4 rounded-xl"

@@ -83,7 +83,7 @@ export function Pricing() {
           }
         `}
       </style>
-      <section className="py-32 relative overflow-hidden bg-gray-950">
+      <section className="py-32 relative overflow-hidden bg-gray-950" >
         {/* Background Elements */}
         <div className="absolute inset-0 opacity-20">
           <div
