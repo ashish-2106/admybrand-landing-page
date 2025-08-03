@@ -91,7 +91,7 @@ export function Features() {
               <h2 className="text-5xl font-bold mb-6 text-white">
                 Powerful AI Features for
                 <span
-                  className="block bg-clip-text text-transparent"
+                  className="block bg-clip-text text-transparent "
                   style={{
                     background: 'linear-gradient(135deg, hsl(217 100% 65%) 0%, hsl(200 100% 65%) 50%, hsl(240 100% 65%) 100%)',
                     WebkitBackgroundClip: 'text',
@@ -114,7 +114,7 @@ export function Features() {
                 return (
                   <div
                     key={index}
-                    className="feature-card group relative overflow-hidden p-6 rounded-2xl"
+                    className="feature-card group relative overflow-hidden p-6 rounded-2xl "
                     style={{
                       background: 'rgba(255, 255, 255, 0.03)',
                       backdropFilter: 'blur(10px)',

@@ -70,7 +70,7 @@ export function Navbar() {
             </div>
 
             {/* Desktop Navigation */}
-            <div className="hidden md:flex items-center space-x-8">
+            <div className="hidden lg:flex items-center space-x-8">
               {navItems.map((item) => (
                 <a
                   key={item.name}
@@ -83,7 +83,7 @@ export function Navbar() {
             </div>
 
             {/* Desktop CTA */}
-            <div className="hidden md:flex items-center space-x-4">
+            <div className="hidden lg:flex items-center space-x-4">
               <button className="text-gray-300 hover:text-cyan-400 transition-colors font-medium">
                 Sign In
               </button>
@@ -101,9 +101,7 @@ export function Navbar() {
             </div>
 
             {/* Mobile Menu Button */}
-            <button
-              onClick={() => setIsOpen(!isOpen)}
-              className="md:hidden p-2 rounded-lg"
+            <button onClick={() => setIsOpen(!isOpen)} className="lg:hidden p-2 rounded-lg text-white"
               style={{
                 background: 'rgba(255, 255, 255, 0.03)',
                 backdropFilter: 'blur(10px)',
@@ -116,7 +114,7 @@ export function Navbar() {
 
           {/* Mobile Navigation */}
           {isOpen && (
-            <div className="md:hidden py-4 border-t border-gray-800/20">
+            <div className="lg:hidden py-4 border-t border-gray-800/20">
               <div className="flex flex-col space-y-4">
                 {navItems.map((item) => (
                   <a
@@ -132,7 +130,9 @@ export function Navbar() {
                   <button className="text-left text-gray-300 hover:text-cyan-400 transition-colors font-medium py-2">
                     Sign In
                   </button>
-                  <GradientButton size="sm" className="w-full">
+                  <GradientButton size="sm" className="w-full text-white" style={{
+                    background: 'linear-gradient(135deg, hsl(217 91% 60%), hsl(200 98% 60%))'
+                  }}>
                     Start Free Trial
                   </GradientButton>
                 </div>

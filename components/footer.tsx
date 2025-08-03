@@ -67,7 +67,7 @@ export function Footer() {
           }
         `}
       </style>
-      <footer className="relative py-32 overflow-hidden border-t border-gray-800/20 bg-gray-950">
+      <footer className="relative py-10 overflow-hidden border-t border-gray-800/20 bg-gray-950">
         <div className="container mx-auto px-6">
           <div className="max-w-7xl mx-auto">
             {/* Newsletter Section */}

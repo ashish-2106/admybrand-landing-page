@@ -93,18 +93,21 @@ export function Hero() {
                   animation: 'slideUp 0.6s ease-out'
                 }}
               >
-                <div
-                  className="inline-flex items-center space-x-2 px-4 py-2 rounded-full"
-                  style={{
-                    background: 'rgba(255, 255, 255, 0.03)',
-                    backdropFilter: 'blur(10px)',
-                    border: '1px solid rgba(255, 255, 255, 0.08)',
-                    boxShadow: '0 8px 32px rgba(0, 0, 0, 0.5)'
-                  }}
-                >
-                  <Sparkles className="w-4 h-4 text-cyan-400" />
-                  <span className="text-sm font-medium text-white">AI-Powered Marketing Suite</span>
+                <div className="relative z-10 mt-20 sm:mt-32 md:mt-10">
+                  <div
+                    className="inline-flex items-center space-x-2 px-4 py-2 rounded-full"
+                    style={{
+                      background: 'rgba(255, 255, 255, 0.03)',
+                      backdropFilter: 'blur(10px)',
+                      border: '1px solid rgba(255, 255, 255, 0.08)',
+                      boxShadow: '0 8px 32px rgba(0, 0, 0, 0.5)'
+                    }}
+                  >
+                    <Sparkles className="w-4 h-4 text-cyan-400" />
+                    <span className="text-sm font-medium text-white">AI-Powered Marketing Suite</span>
+                  </div>
                 </div>
+
 
                 <h1 className="text-6xl lg:text-7xl font-bold leading-tight text-white">
                   Transform Your
@@ -128,7 +131,7 @@ export function Hero() {
                 </p>
 
                 <div className="flex flex-col sm:flex-row gap-4">
-                  {/* Start Free Trial Button with Gradient Outline */}
+                  {/* Start Free Trial Button */}
                   <div
                     className="inline-flex p-[2px] rounded-full button-hover"
                     style={{
@@ -144,20 +147,23 @@ export function Hero() {
                     </GradientButton>
                   </div>
 
-                  {/* Watch Demo Outline Button */}
-                  <div className="inline-flex p-[2px] rounded-full button-hover" style={{
-                    background: 'linear-gradient(135deg, hsl(217 91% 20%), hsl(200 98% 20%))' // subtle border gradient
-                  }}>
+                  {/* Watch Demo Thin Outline Button */}
+                  <div
+                    className="inline-flex p-[1px] rounded-full transition-all duration-300"
+                    style={{
+                      background: 'linear-gradient(135deg, hsl(217 91% 30%), hsl(200 98% 30%))' // very subtle gradient border
+                    }}
+                  >
                     <GradientButton
-                      variant="outline"
                       size="lg"
-                      className=" cursor-pointer group text-white rounded-full bg-transparent hover:bg-transparent focus:outline-none w-full h-full border-none"
+                      className="cursor-pointer group text-white rounded-full bg-black/80 hover:bg-black/60 focus:outline-none w-full h-full border-none"
                     >
                       <Play className="mr-2 w-5 h-5" />
                       Watch Demo
                     </GradientButton>
                   </div>
                 </div>
+
 
                 <div className="flex items-center space-x-8 pt-4">
                   <div className="text-center">
